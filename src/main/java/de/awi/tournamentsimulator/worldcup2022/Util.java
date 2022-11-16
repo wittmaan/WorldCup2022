@@ -10,7 +10,7 @@ public class Util {
 
     public static final int N_SIMULATIONS = 100000;
     public static final int N_ITERATIONS = 500;
-    public static final double TARGET_RELATIVE_ERROR = 0.002; // 141 iterations
+    public static final double TARGET_RELATIVE_ERROR = 0.002; // 181 iterations
 
     static boolean isFirstTeamWinner(final Team team1, final Team team2, final Random random) {
         final double prob = calcProb(team1.ability, team2.ability);
